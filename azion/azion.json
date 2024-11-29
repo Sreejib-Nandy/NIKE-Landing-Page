@@ -1,0 +1,42 @@
+{
+  "name": "NIKE-Landing-Page",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241129151950",
+  "not-first-run": true,
+  "function": {
+    "id": 32981,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31721,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 191002
+  },
+  "application": {
+    "id": 1732890899,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732896714,
+    "name": "NIKE-Landing-Page",
+    "domain_name": "cfw3mvwod9.map.azionedge.net",
+    "url": "https://cfw3mvwod9.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 328233,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
